@@ -7,10 +7,10 @@
     android:layout_height="match_parent"
     tools:context="com.zyyoona7.hencoderpractice.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        />
+        android:text="draw1"
+        android:id="@+id/btn_draw1"/>
 
 </LinearLayout>
