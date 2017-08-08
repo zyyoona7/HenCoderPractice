@@ -11,8 +11,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="center_horizontal">
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
 
         <com.zyyoona7.hencoder.draw2.PracticeGradientView
             android:layout_width="300dp"
@@ -21,11 +21,16 @@
         <com.zyyoona7.hencoder.draw2.PracticeComposeShaderView
             android:layout_width="300dp"
             android:layout_height="300dp"/>
+
         <com.zyyoona7.hencoder.draw2.PracticeLightingColorFilterView
             android:layout_width="300dp"
             android:layout_height="300dp"/>
 
         <com.zyyoona7.hencoder.draw2.PracticeXfermodeView
+            android:layout_width="300dp"
+            android:layout_height="300dp"/>
+
+        <com.zyyoona7.hencoder.draw2.PracticePathEffectView
             android:layout_width="300dp"
             android:layout_height="300dp"/>
     </LinearLayout>
