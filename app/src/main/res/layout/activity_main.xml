@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.zyyoona7.hencoderpractice.MainActivity">
 
     <Button
@@ -12,5 +13,11 @@
         android:layout_height="wrap_content"
         android:text="draw1"
         android:id="@+id/btn_draw1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="draw2"
+        android:id="@+id/btn_draw2"/>
 
 </LinearLayout>
