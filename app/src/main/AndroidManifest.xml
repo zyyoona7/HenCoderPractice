@@ -20,6 +20,8 @@
         </activity>
         <activity android:name=".draw2.Draw2Activity">
         </activity>
+        <activity android:name=".draw3.Draw3Activity">
+        </activity>
     </application>
 
 </manifest>

@@ -8,11 +8,13 @@ import android.widget.Button;
 
 import com.zyyoona7.hencoderpractice.draw1.Draw1Activity;
 import com.zyyoona7.hencoderpractice.draw2.Draw2Activity;
+import com.zyyoona7.hencoderpractice.draw3.Draw3Activity;
 
 public class MainActivity extends AppCompatActivity {
 
     private Button mDraw1Btn;
     private Button mDraw2Btn;
+    private Button mDraw3Btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
     private void initViews() {
         mDraw1Btn = (Button) findViewById(R.id.btn_draw1);
         mDraw2Btn = (Button) findViewById(R.id.btn_draw2);
+        mDraw3Btn = (Button) findViewById(R.id.btn_draw3);
     }
 
     private void initEvent() {
@@ -39,6 +42,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 goTo(Draw2Activity.class);
+            }
+        });
+
+        mDraw3Btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goTo(Draw3Activity.class);
             }
         });
     }
