@@ -9,12 +9,14 @@ import android.widget.Button;
 import com.zyyoona7.hencoderpractice.draw1.Draw1Activity;
 import com.zyyoona7.hencoderpractice.draw2.Draw2Activity;
 import com.zyyoona7.hencoderpractice.draw3.Draw3Activity;
+import com.zyyoona7.hencoderpractice.draw4.Draw4Activity;
 
 public class MainActivity extends AppCompatActivity {
 
     private Button mDraw1Btn;
     private Button mDraw2Btn;
     private Button mDraw3Btn;
+    private Button mDraw4Btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         mDraw1Btn = (Button) findViewById(R.id.btn_draw1);
         mDraw2Btn = (Button) findViewById(R.id.btn_draw2);
         mDraw3Btn = (Button) findViewById(R.id.btn_draw3);
+        mDraw4Btn = (Button) findViewById(R.id.btn_draw4);
     }
 
     private void initEvent() {
@@ -49,6 +52,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 goTo(Draw3Activity.class);
+            }
+        });
+
+        mDraw4Btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goTo(Draw4Activity.class);
             }
         });
     }

@@ -22,6 +22,8 @@
         </activity>
         <activity android:name=".draw3.Draw3Activity">
         </activity>
+        <activity android:name=".draw4.Draw4Activity">
+        </activity>
     </application>
 
 </manifest>

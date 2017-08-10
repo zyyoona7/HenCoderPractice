@@ -26,4 +26,10 @@
         android:text="draw3"
         android:id="@+id/btn_draw3"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="draw4"
+        android:id="@+id/btn_draw4"/>
+
 </LinearLayout>
